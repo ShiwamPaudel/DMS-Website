@@ -20,20 +20,20 @@ if (close) {
 const cartItems = [
     {
         id: 1,
-        image: 'images/products/f1.jpg',
-        name: 'Cartoon Astronaut T-Shirt',
+        image: 'images/products/AlexStar.png',
+        name: 'AlexStar Red Edition',
         quantity: 1
     },
     {
         id: 2,
-        image: 'images/products/f2.jpg',
-        name: 'Cartoon Astronaut T-Shirt',
+        image: 'images/products/BA200.png',
+        name: 'BA 200',
         quantity: 1
     },
     {
         id: 3,
-        image: 'images/products/f3.jpg',
-        name: 'Cartoon Astronaut T-Shirt',
+        image: 'images/products/CryoCube.png',
+        name: 'CryoCube',
         quantity: 1
     }
 ];
@@ -50,7 +50,7 @@ function renderCartItems() {
             <td><a href="#" onclick="removeItem(${item.id})"><i class="fas fa-times-circle" style="color:black"></i></a></td>
             <td><img src="${item.image}" alt=""></td>
             <td>${item.name}</td>
-            <td><input type="number" value="${item.quantity}" onchange="updateQuantity(${item.id}, this.value)"></td>
+            <td><input type="number" value="${item.quantity}" style="text-align:center"onchange="updateQuantity(${item.id}, this.value)"></td>
         `;
 
         cartItemsContainer.appendChild(row);
@@ -75,7 +75,7 @@ function updateQuantity(id, quantity) {
     }
 }
 
-// Initialize the cart items on page load
+
 window.onload = function() {
     renderCartItems();
 }
