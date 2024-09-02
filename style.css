@@ -347,7 +347,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(images/banner/b17.jpg);
+    background-image: url(images/banner/drawraybanner.png);
     background-size: cover;
     background-position: center;
     min-width: 850px;
@@ -380,7 +380,7 @@ body {
 }
 
 #sm-banner .banner-box:nth-child(2) {
-    background-image: url(images/banner/b10.jpg);
+    background-image: url(images/banner/ergodisc165banner.png);
 }
 
 #banner3 .banner-box {
