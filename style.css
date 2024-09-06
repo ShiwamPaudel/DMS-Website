@@ -389,7 +389,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(images/banner/b7.jpg);
+    background-image: url(images/banner/nihonkohdenondms.png);
     background-size: cover;
     background-position: center;
     min-width: 30%;
@@ -399,11 +399,11 @@ body {
 }
 
 #banner3 .banner-box:nth-child(2) {
-    background-image: url(images/banner/b4.jpg);
+    background-image: url(images/banner/nihonkohdenondms.png);
 }
 
 #banner3 .banner-box:nth-child(3) {
-    background-image: url(images/banner/b18.jpg);
+    background-image: url(images/banner/nihonkohdenondms.png);
 }
 
 #banner3 {
